@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA DE PRODUTOS</title>
+
+    <style>
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: brown;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th, td {
+            padding: 7px 12px;
+        }
+        th {
+            background-color: brown;
+            color: aliceblue;   
+        }
+        table tr:nth-child(old) {
+            background-color: bisque;
+        }
+        table tr:nth-child(even) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1><i>TABELA DOS PRODUTOS</i></h1>
+    </article>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th colspan="2">Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td><strong>Acer</strong></td>
+                <td>R$3.000,00</td>
+                <td><strong>5% OFF</strong></td>
+            </tr>
+            <tr>
+                <td>Computador</td>
+                <td><strong>Samsung</strong></td>
+                <td>R$8.000,00</td>
+                <td><strong>15% OFF</strong></td>
+            </tr>
+            <tr>
+                <td>Video Game</td>
+                <td><strong>Xbox</strong></td>
+                <td>R$2.000,00</td>
+                <td><strong>20% OFF</strong></td>
+            </tr>
+            <tr>
+                <td>Mesa digitalizadora</td>
+                <td><strong>Random</strong></td>
+                <td>R$1.500,00</td>
+                <td><strong>10% OFF</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
